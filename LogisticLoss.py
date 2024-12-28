@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#used ligistic loss function for training
 def load_dataset(file_path):
     df = pd.read_csv(file_path)
     
